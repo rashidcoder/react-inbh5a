@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useReducer } from "react";
 import "./style.css";
-import useReducer from "./reducer/reducer";
+// import useReducer from "./reducer/reducer";
 import userReducer from "./reducer/user/user-reducer";
 import theme from "./theme/theme";
 import Text from "./components/text";
